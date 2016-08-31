@@ -1,0 +1,77 @@
+body{
+	font-size:16px;
+	color:#fff;
+	background-color:grey;
+}
+/*---------------HEADER-----------*/
+#header-nav{
+	background-color: #ff751a;
+	border-radius:0;
+	border:0;
+}
+.container{
+	margin:0;
+}
+.navbar-brand h1{
+		font-family:'Oxygen',serrif;
+		color:#5c5cd6;
+		font-size:1.5em;
+		text-transform:uppercase;
+		font-weight:bold;
+		margin-top:0;
+		margin-bottom:0px;
+		line-height:.75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+	text-decoration:none;
+}
+.navbar-header button.navbar-toggle,.navbar-header .icon-bar{
+	border:1px solid #61122f;
+}
+#nav-list{
+	clear:both;
+
+}
+/*------------END OF HEADER--------------*/
+/*------------HOME PAGE---------------*/
+h2,h3{
+	font-family:'Oxygen',serrif;
+	color:white;
+		font-size:1.5em;
+		text-transform:uppercase;
+		font-weight:bold;
+		margin-top:0;
+		margin-bottom:0px;
+		line-height:.75;
+		text-align:center;
+}
+h3{
+	font-size:1.2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight:bolder;
+
+}
+.matterbox{
+	background-color: red;
+	margin:15px;
+	padding:10px; 
+ 	}
+@media(max-width:767px){
+.navbar-brand{
+	padding-top:10px;
+	height:80px;
+	}
+.navbar-brand h1 {
+	padding-top:10px;
+	font-size:5vw;
+}
+.navbar-brand p {
+	
+	font-size:.6em;
+	margin-top:12px;
+}
+.navbar-brand p img{height:20px;}
+
+#collapsable-nav a{font-size:1.2em;}
+#collapsable-nav a span{font-size:1em;}
